@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PARA Bank Regression Suite" parallel="tests" thread-count="2">
+	<!--  <test name="PARA Bank Registration0">
+		<classes>
+			<class name="com.app.runner.ParaBankRegistrationTestRunner" />
+		</classes>
+	</test>  -->	
+	
+	 <!-- <test name="PARA Bank Registration1">
+		<classes>
+			<class name="com.app.runner.ParaBankRegistrationTestRunner2" />
+		</classes>
+	</test>  -->
+	
+	  <test name="PARA Bank Rerun1">
+		<classes>
+			<class name="com.app.runner.ParaBankRegistrationFailedTestRunner" />
+		</classes>
+	</test>	 
+	
+	 <test name="PARA Bank Rerun2">
+		<classes>
+			<class name="com.app.runner.ParaBankRegistrationFailedTestRunner2" />
+		</classes>
+	</test>	 
+	
+</suite>

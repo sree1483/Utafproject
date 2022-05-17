@@ -1,0 +1,10 @@
+com\app\runner\ParaBankRegistrationFailedTestRunner.class
+com\app\stepdef\LoginPageStepDef.class
+com\app\runner\ParaBankRegistrationFailedTestRunner2.class
+com\app\runner\RunnerConfig.class
+com\app\stepdef\ParaBankStepDef.class
+com\app\runner\ParaBankRegistrationTestRunner.class
+com\app\stepdef\TestDataReadingStepDef.class
+com\app\runner\ParaBankProductsTestRunner.class
+com\app\runner\ParaBankRegistrationTestRunner2.class
+com\app\stepdef\Hooks.class

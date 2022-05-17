@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PARA Bank Regression Suite]" parallel="tests">
+  <test thread-count="1" verbose="0" name="PARA Bank Registration0(failed)" parallel="tests">
+    <classes>
+      <class name="com.app.runner.ParaBankRegistrationTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.app.runner.ParaBankRegistrationTestRunner -->
+    </classes>
+  </test> <!-- PARA Bank Registration0(failed) -->
+</suite> <!-- Failed suite [PARA Bank Regression Suite] -->
